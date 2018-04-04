@@ -1,5 +1,6 @@
 // Including Environment Variables
 require("dotenv").config()
+// var server = require("./server.js");
 
 // Node dependencies
 var fs = require("fs");
@@ -193,7 +194,7 @@ function getSpotify(command, song) {
     }
 
     // Search Spotify for the song specified on command line
-    spotify.search({ type: "track", query: song }, (error, data) => {
+    spotify.search({ type: "track", query: song, limit: 10 }, (error, data) => {
 
         // If an error occurred, return error...
         if (error) {
