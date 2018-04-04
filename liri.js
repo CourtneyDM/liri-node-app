@@ -37,7 +37,7 @@ switch (cmd) {
 }
 
 
-// Get Twitter information and display in console
+// Get Twitter information
 function getTweets(command) {
 
     // Append command to the log file
@@ -76,7 +76,7 @@ function getTweets(command) {
 }
 
 
-// Get movie information and display in console
+// Get OMDB movie information
 function getMovie(command, movie) {
 
     // Append command to the log file
@@ -159,7 +159,7 @@ function getMovie(command, movie) {
 }
 
 
-// Get Spotify information and display in console
+// Get Spotify information
 function getSpotify(command, song) {
     var spotify = new Spotify(keys.spotify);
 
@@ -214,7 +214,7 @@ function getSpotify(command, song) {
     });
 }
 
-// Display command from file in console
+// Get File Stream command from file
 function getFileInput(command) {
     var textFile = "./random.txt";
 
