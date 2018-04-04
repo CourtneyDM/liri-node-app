@@ -1,0 +1,36 @@
+
+Command: my-tweets
+Tweet 1: Week 1 of te #250KChallenge2018 started off good. Now it’s time to kick it up a notch. @ 24 Hour… https://t.co/simxfGbf2V
+Tweet 2: @elvisnchidera I read your story on @Medium and it is very inspiring. I commend you for following your dreams and n… https://t.co/XuQDyzmmYc
+Tweet 3: #100DaysOfCode - Day 13: Coding on my lunch break. #Bootstrap #CSS #Chipotle #GameOfThrones  #HTML #JavaScript @freeCodeCamp @CodePen
+Tweet 4: #100DaysOfCode - Day 12: Headed into 2018 coding. Hope all of you had a successful 2017, and may you be blessed with a better 2018. Cheers!
+Tweet 5: #100DaysOfCode - Day 11: I am just now getting back to coding - life has kept me busy the last few days, so I am glad to have “free time”.
+Tweet 6: #100DaysOfCode - Day 10: didn’t get a chance to do some actual coding, but I did do some research on how to use Jav… https://t.co/IL4TD3W8t2
+Tweet 7: #100DaysOfCode - Day 9: Portfolio Tweeks...even though it’s Christmas Eve, I was able to accomplish 30 mins (or les… https://t.co/GsCCxKXQGf
+Tweet 8: #100DaysOfCode - Day 8: the portfolio is starting to come together; I have done quite a bit but still have a long way to go for perfection.
+Tweet 9: #100DaysOfCode - Day 7: The portfolio is coming along, just have some design conflicts in my head. Too many ideas, hard to pick just one!
+Tweet 10: #100DaysOfCode - Day 6: still working on the portfolio project by way of @freeCodeCamp and @CodePen. The creativity… https://t.co/nYISLINwkM
+Tweet 11: #100DaysOfCode - Day 5: Working on the portfolio project using the @freeCodeCamp platform along with @CodePen. #Bootstrap #CSS #HTML #jQuery
+Tweet 12: #100DaysOfCode - Day 4: “Build a Personal Portfolio Webpage”
+Platform: @freeCodeCamp
+#Bootstrap #CodePen #CSS #HTML #jQuery
+Tweet 13: Thought last week’s workout was more of a success than this overview shows. Guess I’ll have to… https://t.co/xKIkxlWr8V
+Tweet 14: #100DaysOfCode - Day 3: Bootstrap &amp; Responsive Design (cont’d)
+Platform: @freeCodeCamp
+Tweet 15: #100DaysOfCode - Day 2: “Using Responsive Design with Bootstrap Fluid Containers”. Platform: @freeCodeCamp. #LetsDoThis
+Tweet 16: #100DaysOfCode - Day 1: Getting reacquainted with HTML/CSS by way of the @freeCodeCamp platform. Thanks @FedericoLosi for the push!
+Tweet 17: @FedericoLosi @freeCodeCamp Absolutely! I appreciate the advice!
+Tweet 18: @FedericoLosi Thanks @FedericoLosi! I hopped on @freeCodeCamp and will leverage their platform. 👍🏾👍🏾
+Tweet 19: Looking to start my #100DaysOfCode but not sure where to start…#FirstWorldProblems
+Tweet 20: Took a lot to get up and workout this morning, but I knocked it out. #Fitness #FitFam… https://t.co/uXSc6Js87A
+
+Initial command: do-what-it-says
+Command: movie-this
+Title: Casino Royale
+Year: 17 Nov 2006
+IMDB: 8.0
+Rotten_Tomatoes: 94%
+Language: English, French
+Plot: Armed with a license to kill, Secret Agent James Bond sets out on his first mission as 007, and must defeat a private banker to terrorists in a high stakes game of poker at Casino Royale, Montenegro, but things are not what they seem.
+Actors: Daniel Craig, Eva Green, Mads Mikkelsen, Judi Dench
+Country: UK, Czech Republic, USA, Germany, Bahamas, Italy
