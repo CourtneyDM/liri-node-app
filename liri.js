@@ -1,3 +1,4 @@
+// Including Environment Variables
 require("dotenv").config()
 
 // Node dependencies
@@ -9,11 +10,11 @@ var Twitter = require("twitter");
 // Include module that contains Twitter and Spotify access tokens and secrets
 var keys = require("./keys.js");
 
-// Use third command line parameter as command to execute - index is zero-based
+// Use the third command line argument as command to execute - indexing is zero-based
 var cmd = process.argv[2].toLowerCase();
 var cmdOption = "";
 
-// Test CLI command chosen by user
+// Test the command line option selected by user
 switch (cmd) {
     case "my-tweets":
         getTweets();
@@ -32,7 +33,8 @@ switch (cmd) {
         break;
 }
 
-// Display Twitter information in console
+
+// Get Twitter information and display in console
 function getTweets() {
 
     // Declare new Twitter object
@@ -52,35 +54,42 @@ function getTweets() {
     return;
 }
 
-// Display movie information in console
+
+// Get movie information and display in console
 function getMovie(movie) {
 
     // If no movie title was provided, set default title to Mr. Nobody 
-    if ((process.argv.length < 4) || (movie === "")) {
-        movie = "Mr. Nobody";
-    }
-    else {
-        // Loop through the command line arguments to be used in movie title query
-        for (var i = 3; i < process.argv.length; i++) {
-            if (i >= 3 && i < process.argv.length - 1) {
-                movie += process.argv[i] + "+";
-            }
-            else {
-                movie += process.argv[i];
+    if (movie === "") {
+        if (process.argv.length < 4) {
+            movie = "Mr. Nobody";
+        }
+        else {
+
+            // Loop through the command line arguments to be used in movie title query
+            for (var i = 3; i < process.argv.length; i++) {
+
+                // If there are multiple arguments after the command, add them to the song title
+                if (i >= 3 && i < process.argv.length - 1) {
+                    movie += process.argv[i] + "+";
+                }
+                else {
+                    movie += process.argv[i];
+                }
             }
         }
     }
-
-    // console.log("Movie title: " + movie);
 
     // Declare variable for OMDB URL to be used for API queries
     var queryURL = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
 
-    // Request to OMDB API
+    // Send request to OMDB API
     request(queryURL, (error, response, body) => {
-        if (error) {
+
+        // If an error occurred, return the error
+        if ((error) || (!JSON.parse(body).Title)) {
             return console.log(error);
         }
+        // ...otherwise, create a movie Object and set its properties
         else {
             var movieObj = {
                 title: JSON.parse(body).Title,
@@ -93,6 +102,7 @@ function getMovie(movie) {
                 actors: JSON.parse(body).Actors
             };
 
+            // Display movie details in the console
             console.log(`Title: ${movieObj.title}`);
             console.log(`Year Released: ${movieObj.year}`);
             console.log(`IMDB Rating: ${movieObj.IMDB}`);
@@ -105,29 +115,41 @@ function getMovie(movie) {
     });
 }
 
-// Display Spotify information in console
+
+// Get Spotify information and display in console
 function getSpotify(song) {
     var spotify = new Spotify(keys.spotify);
 
-    if ((process.argv.length < 4) || (song === "")) {
-        song = "The Sign";
-    }
-    // TODO: FIX THIS
-    else {
-        // Loop through the command line arguements to be used in song title query
-        for (var i = 3; i < process.argv.length; i++) {
-            if (i >= 3 && i < process.argv.length - 1) {
-                song += process.argv[i] + "+";
-            }
-            else {
-                song += process.argv[i];
+    // If a song tile was not provided, set a default song title
+    if (song === "") {
+        if (process.argv.length < 4) {
+            song = "The Sign";
+        }
+
+        else {
+            // Loop through the command line arguements to be used in song title query
+            for (var i = 3; i < process.argv.length; i++) {
+
+                // If there are multiple arguments after the command, add them to the song title
+                if (i >= 3 && i < process.argv.length - 1) {
+                    song += process.argv[i] + "+";
+                }
+                else {
+                    song += process.argv[i];
+                }
             }
         }
     }
+
+    // Search Spotify for the song specified on command line
     spotify.search({ type: "track", query: song }, (error, data) => {
+
+        // If an error occurred, return error...
         if (error) {
-            console.log(error);
+            return console.log(error);
         }
+
+        // ...otherwise, log information to console
         else {
             console.log(data);
         }
@@ -139,17 +161,22 @@ function getFileInput() {
     var textFile = "./random.txt";
 
     fs.readFile(textFile, "utf8", (error, data) => {
+
+        // If an error occurred, return the error...
         if (error) {
             return console.log(error);
         }
+
+        // ...otherwise, create and array to contain file content, separating items when a comma is reached
         else {
             var inputArr = data.split(",");
         }
+
+        // Create and initialize variables for file stream command and options based on input array
         var fsCmd = inputArr[0];
         var fsOption = inputArr[1];
-        console.log(fsCmd);
-        console.log(fsOption);
 
+        // Test the command read from file stream
         switch (fsCmd) {
             case "my-tweets":
                 getTweets();
@@ -164,6 +191,7 @@ function getFileInput() {
                 console.log("Unable to process request.");
                 break;
         }
-
     });
 }
+
+/********** END OF FILE **********/
