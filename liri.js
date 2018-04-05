@@ -1,8 +1,8 @@
-// Including Environment Variables
+// Include Environment Variables
 require("dotenv").config()
 // var server = require("./server.js");
 
-// Node dependencies
+// Include Node dependencies
 var fs = require("fs");
 var request = require("request");
 var Spotify = require("node-spotify-api");
