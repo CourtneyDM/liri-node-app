@@ -1,28 +1,28 @@
 {
-  "name": "Liri-Node-app",
-  "version": "1.0.0",
-  "description": "LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CourtneyDM/Liri-Node-app.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CourtneyDM/Liri-Node-app/issues"
-  },
-  "homepage": "https://github.com/CourtneyDM/Liri-Node-app#readme",
-  "dependencies": {
-    "curl": "^0.1.4",
-    "dotenv": "^5.0.1",
-    "node-spotify-api": "^1.0.7",
-    "request": "^2.85.0",
-    "spotify-web-api-node": "^3.0.0",
-    "twitter": "^1.7.1"
-  }
+    "name": "liri-node-app",
+    "version": "1.0.0",
+    "description": "LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CourtneyDM/Liri-Node-app.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CourtneyDM/Liri-Node-app/issues"
+    },
+    "homepage": "https://github.com/CourtneyDM/Liri-Node-app#readme",
+    "dependencies": {
+        "curl": "^0.1.4",
+        "dotenv": "^5.0.1",
+        "node-spotify-api": "^1.0.7",
+        "request": "^2.85.0",
+        "spotify-web-api-node": "^3.0.0",
+        "twitter": "^1.7.1"
+    }
 }

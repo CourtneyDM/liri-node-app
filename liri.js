@@ -10,6 +10,7 @@ var Twitter = require("twitter");
 
 // Include module that contains Twitter and Spotify access tokens and secrets
 var keys = require("./keys.js");
+// var spotifyAPI = require("./spotifyKeys.js");
 
 // Use the third command line argument as command to execute - indexing is zero-based
 var cmd = process.argv[2].toLowerCase();
@@ -194,7 +195,7 @@ function getSpotify(command, song) {
     }
 
     // Search Spotify for the song specified on command line
-    spotify.search({ type: "track", query: song, limit: 10 }, (error, data) => {
+    spotifyAPI.search({ type: "track", query: song, limit: 10 }, (error, data) => {
 
         // If an error occurred, return error...
         if (error) {
@@ -204,7 +205,7 @@ function getSpotify(command, song) {
 
         // ...otherwise, log information to console
         else {
-            console.log(data);
+            console.log(data.body);
             fs.appendFile(logFile, data, error => {
                 if (error) {
                     error = "FAILED: Unable to Log Song Details.";
