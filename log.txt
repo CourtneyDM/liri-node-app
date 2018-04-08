@@ -28,18 +28,45 @@ Initial command: do-what-it-says
 Command: movie-this
 Title: Casino Royale
 Year: 17 Nov 2006
-IMDB: 8.0
+IMDB_Rating: 8.0
 Rotten_Tomatoes: 94%
+Country: UK, Czech Republic, USA, Germany, Bahamas, Italy
 Language: English, French
 Plot: Armed with a license to kill, Secret Agent James Bond sets out on his first mission as 007, and must defeat a private banker to terrorists in a high stakes game of poker at Casino Royale, Montenegro, but things are not what they seem.
 Actors: Daniel Craig, Eva Green, Mads Mikkelsen, Judi Dench
-Country: UK, Czech Republic, USA, Germany, Bahamas, Italy
 
 Command: spotify-this-song
-[object Object]
-Command: spotify-this-song
-[object Object]
-Command: spotify-this-song
-[object Object]
-Command: spotify-this-song
-[object Object]
+Song: Pitbull
+Title: Feel This Moment
+Preview: https://p.scdn.co/mp3-preview/68f4c7804fff74deba04b861d13d2743101233d5?cid=305ec94b7ec54b62a358bb9be0862a0a
+Album: Global Warming: Meltdown (Deluxe Version)
+
+Command: movie-this
+Title: The Emoji Movie
+Year: 28 Jul 2017
+IMDB_Rating: 3.1
+Rotten_Tomatoes: 9%
+Country: USA
+Language: English
+Plot: Gene, a multi-expressional emoji, sets out on a journey to become a normal emoji.
+Actors: T.J. Miller, James Corden, Anna Faris, Maya Rudolph
+
+Command: movie-this
+Title: Octopussy
+Year: 10 Jun 1983
+IMDB_Rating: 6.6
+Rotten_Tomatoes: 42%
+Country: UK, USA
+Language: English, Russian, German, Spanish, Hindi
+Plot: A fake Fabergé egg, and a fellow Agent's death, lead James Bond to uncover an international jewel-smuggling operation, headed by the mysterious Octopussy, being used to disguise a nuclear attack on N.A.T.O. forces.
+Actors: Roger Moore, Maud Adams, Louis Jourdan, Kristina Wayborn
+
+Command: movie-this
+Title: Black Panther
+Year: 16 Feb 2018
+IMDB_Rating: 7.8
+Rotten_Tomatoes: 97%
+Country: USA
+Language: Swahili, Nama, English, Xhosa, Korean
+Plot: T'Challa, the King of Wakanda, rises to the throne in the isolated, technologically advanced African nation, but his claim is challenged by a vengeful outsider who was a childhood victim of T'Challa's father's mistake.
+Actors: Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o, Danai Gurira

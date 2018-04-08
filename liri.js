@@ -1,6 +1,5 @@
 // Include Environment Variables
 require("dotenv").config()
-// var server = require("./server.js");
 
 // Include Node dependencies
 var fs = require("fs");
@@ -194,10 +193,8 @@ function getSpotify(command, song) {
         }
     }
 
-
-    // TODO: FIX THIS
     // Search Spotify for the song specified on command line
-    spotifyAPI.search({ type: "track", query: song, limit: 10 }, (error, data) => {
+    spotify.search({ type: "track,artist", query: song, limit: 1 }, (error, data) => {
 
         // If an error occurred, return error...
         if (error) {
@@ -207,8 +204,19 @@ function getSpotify(command, song) {
 
         // ...otherwise, log information to console
         else {
-            console.log(data.body);
-            fs.appendFile(logFile, data, error => {
+            var track = data.tracks.items[0];
+            var artist = track.artists[0].name;
+            var title = track.name;
+            var preview = track.preview_url;
+            var album = track.album.name;
+
+            console.log(`Artist: ${artist}`);
+            console.log(`Song Title: ${title}`);
+            console.log(`Song Preview: ${preview}`);
+            console.log(`Album: ${album}`);
+
+            // Log information to logfile
+            fs.appendFile(logFile, `Song: ${artist}\nTitle: ${title}\nPreview: ${preview}\nAlbum: ${album}` + "\n", error => {
                 if (error) {
                     error = "FAILED: Unable to Log Song Details.";
                     return console.log(error);
@@ -265,5 +273,4 @@ function getFileInput(command) {
         }
     });
 }
-
 /********** END OF FILE **********/
