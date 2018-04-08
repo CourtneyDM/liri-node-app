@@ -194,6 +194,8 @@ function getSpotify(command, song) {
         }
     }
 
+
+    // TODO: FIX THIS
     // Search Spotify for the song specified on command line
     spotifyAPI.search({ type: "track", query: song, limit: 10 }, (error, data) => {
 
