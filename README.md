@@ -11,13 +11,13 @@ LIRI, also known as _Language Interpretation and Recognition Interface_, is comm
 * __my-tweets__: returns 20 of the most recent tweets.  
    CLI Call: _node my-tweets_
 
-* __spotify-this-song__: returns the Artist, Album, Preview of the song specified. _Default Song: "The Sign"_
+* __spotify-this-song__: returns the Artist, Album, Preview of the song specified. _Default Song: "The Sign"_  
    CLI Call: _node spotify-this-song songName_
 
-* __movie-this__: returns the movie details of the specified movie title. _Default Movie: "Mr. Nobody"_
+* __movie-this__: returns the movie details of the specified movie title. _Default Movie: "Mr. Nobody"_  
    CLI Call: _node movie-this movieTitle_
 
-* __do-what-it-says__: reads a command from a file and executes the command specified. _Default Command: "movie-this 'Casino Royale'"_
+* __do-what-it-says__: reads a command from a file and executes the command specified. _Default Command: "movie-this 'Casino Royale'"_  
 
 ### Resources
 
