@@ -27,7 +27,7 @@ LIRI, also known as _Language Interpretation and Recognition Interface_, is comm
    [Twitter](https://www.npmjs.com/package/twitter)  
 
 * Node Packages:  
-   FileStream (FS)  
+   [File System](https://nodejs.org/docs/latest-v7.x/api/fs.html)  
    [Request](https:/www.npmjs.com/package/request)  
 
 #### Copyright
