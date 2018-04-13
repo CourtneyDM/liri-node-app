@@ -86,3 +86,30 @@ Artist: Anthem Lights
 Preview: https://p.scdn.co/mp3-preview/2c64ec96acf7c105c15fb1cbfa930f977cc49f03?cid=305ec94b7ec54b62a358bb9be0862a0a
 Album: Covers Part IV
 ------------------------------
+------------------------------
+Request: "MY-TWEETS"
+Tweet: Week 1 of te #250KChallenge2018 started off good. Now it’s time to kick it up a notch. @ 24 Hour… https://t.co/simxfGbf2V
+Tweet: @elvisnchidera I read your story on @Medium and it is very inspiring. I commend you for following your dreams and n… https://t.co/XuQDyzmmYc
+Tweet: #100DaysOfCode - Day 13: Coding on my lunch break. #Bootstrap #CSS #Chipotle #GameOfThrones  #HTML #JavaScript @freeCodeCamp @CodePen
+Tweet: #100DaysOfCode - Day 12: Headed into 2018 coding. Hope all of you had a successful 2017, and may you be blessed with a better 2018. Cheers!
+Tweet: #100DaysOfCode - Day 11: I am just now getting back to coding - life has kept me busy the last few days, so I am glad to have “free time”.
+Tweet: #100DaysOfCode - Day 10: didn’t get a chance to do some actual coding, but I did do some research on how to use Jav… https://t.co/IL4TD3W8t2
+Tweet: #100DaysOfCode - Day 9: Portfolio Tweeks...even though it’s Christmas Eve, I was able to accomplish 30 mins (or les… https://t.co/GsCCxKXQGf
+Tweet: #100DaysOfCode - Day 8: the portfolio is starting to come together; I have done quite a bit but still have a long way to go for perfection.
+Tweet: #100DaysOfCode - Day 7: The portfolio is coming along, just have some design conflicts in my head. Too many ideas, hard to pick just one!
+Tweet: #100DaysOfCode - Day 6: still working on the portfolio project by way of @freeCodeCamp and @CodePen. The creativity… https://t.co/nYISLINwkM
+Tweet: #100DaysOfCode - Day 5: Working on the portfolio project using the @freeCodeCamp platform along with @CodePen. #Bootstrap #CSS #HTML #jQuery
+Tweet: #100DaysOfCode - Day 4: “Build a Personal Portfolio Webpage”
+Platform: @freeCodeCamp
+#Bootstrap #CodePen #CSS #HTML #jQuery
+Tweet: Thought last week’s workout was more of a success than this overview shows. Guess I’ll have to… https://t.co/xKIkxlWr8V
+Tweet: #100DaysOfCode - Day 3: Bootstrap &amp; Responsive Design (cont’d)
+Platform: @freeCodeCamp
+Tweet: #100DaysOfCode - Day 2: “Using Responsive Design with Bootstrap Fluid Containers”. Platform: @freeCodeCamp. #LetsDoThis
+Tweet: #100DaysOfCode - Day 1: Getting reacquainted with HTML/CSS by way of the @freeCodeCamp platform. Thanks @FedericoLosi for the push!
+Tweet: @FedericoLosi @freeCodeCamp Absolutely! I appreciate the advice!
+Tweet: @FedericoLosi Thanks @FedericoLosi! I hopped on @freeCodeCamp and will leverage their platform. 👍🏾👍🏾
+Tweet: Looking to start my #100DaysOfCode but not sure where to start…#FirstWorldProblems
+Tweet: Took a lot to get up and workout this morning, but I knocked it out. #Fitness #FitFam… https://t.co/uXSc6Js87A
+
+------------------------------
