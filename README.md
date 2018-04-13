@@ -8,7 +8,7 @@ LIRI, also known as _Language Interpretation and Recognition Interface_, is comm
 
 ### Commands to Use
 
-* __my-tweets__: returns 20 o f the most recent tweets.
+* __my-tweets__: returns 20 of the most recent tweets.
    CLI Call: _node my-tweets_
 
 * __spotify-this-song__: returns the Artist, Album, Preview of the song specified. _Default Song: "The Sign"_
@@ -21,11 +21,11 @@ LIRI, also known as _Language Interpretation and Recognition Interface_, is comm
 
 ### Resources
 
-* APIs
+* APIs:
    [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
    [OMDB](http://www.omdbapi.com/)
    [Twitter](https://www.npmjs.com/package/twitter)
 
-* Node Packages
+* Node Packages:
    FileStream (FS)
    [Request](https://www.npmjs.com/package/request)
