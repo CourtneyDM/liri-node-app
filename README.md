@@ -21,14 +21,14 @@ LIRI, also known as _Language Interpretation and Recognition Interface_, is comm
 
 ### Resources
 
-* APIs:
-   [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
-   [OMDB](http://www.omdbapi.com/)
-   [Twitter](https://www.npmjs.com/package/twitter)
+* APIs:  
+   [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)  
+   [OMDB](http://www.omdbapi.com/)  
+   [Twitter](https://www.npmjs.com/package/twitter)  
 
-* Node Packages:
-   FileStream (FS)
-   [Request](https://www.npmjs.com/package/request)
+* Node Packages:  
+   FileStream (FS)  
+   [Request](https:/www.npmjs.com/package/request)  
 
 #### Copyright
 
