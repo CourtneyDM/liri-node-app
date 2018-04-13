@@ -31,4 +31,5 @@ LIRI, also known as _Language Interpretation and Recognition Interface_, is comm
    [Request](https://www.npmjs.com/package/request)
 
 #### Copyright
+
 <p>Courtney Montgomery &copy 2018</p>
