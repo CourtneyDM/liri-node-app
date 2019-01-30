@@ -21,8 +21,8 @@
         "curl": "^0.1.4",
         "dotenv": "^5.0.1",
         "node-spotify-api": "^1.0.7",
-        "request": "^2.85.0",
-        "spotify-web-api-node": "^3.0.0",
+        "request": "^2.88.0",
+        "spotify-web-api-node": "^4.0.0",
         "twitter": "^1.7.1"
     }
 }
