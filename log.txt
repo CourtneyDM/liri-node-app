@@ -10,3 +10,60 @@ Language: English, French
 Plot: Armed with a license to kill, Secret Agent James Bond sets out on his first mission as 007, and must defeat a private banker to terrorists in a high stakes game of poker at Casino Royale, Montenegro, but things are not what they seem.
 Actors: Daniel Craig, Eva Green, Mads Mikkelsen, Judi Dench
 ------------------------------
+
+Year: 26 Sep 2013
+Rotten_Tomatoes: 67%
+Country: Belgium, Germany, Canada, France, United Kingdom, Luxembourg, United States
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger
+------------------------------
+
+Title: Mr. Nobody------------------------------
+Request: "MOVIE-THIS"
+
+IMDB_Rating: 7.7------------------------------
+Request: "SPOTIFY-THIS-SONG"
+
+------------------------------
+
+Album: The Sign
+Title: The Sign
+Preview: https://p.scdn.co/mp3-preview/80fb2519938df63631258cfb4908e6a906c15e32?cid=305ec94b7ec54b62a358bb9be0862a0a
+Artist: Ace of Base
+IMDB_Rating: 8.0
+Title: Casino Royale
+Language: English, Serbian, German, Italian, French
+Plot: After earning a licence to kill, secret agent James Bond sets out on his first mission as 007. Bond must defeat a private banker funding terrorists in a high-stakes game of poker at Casino Royale, in Montenegro.
+Country: United States, United Kingdom, Czech Republic, Germany, Bahamas
+------------------------------
+
+Actors: Daniel Craig, Eva Green, Judi Dench------------------------------
+Request: "MOVIE-THIS"
+
+Year: 17 Nov 2006
+Rotten_Tomatoes: 94%
+Year: 07 Jun 2024
+Country: United States
+Rotten_Tomatoes: 65%
+Language: English------------------------------
+Request: "MOVIE-THIS"
+
+Actors: Will Smith, Martin Lawrence, Vanessa Hudgens
+------------------------------
+
+Title: Bad Boys: Ride or Die
+IMDB_Rating: 6.7
+Plot: When their late police captain gets linked to drug cartels, wisecracking Miami cops Mike Lowrey and Marcus Burnett embark on a dangerous mission to clear his name.------------------------------
+Request: "MOVIE-THIS"
+
+IMDB_Rating: 6.5
+Language: English, Spanish
+Country: United States
+Plot: Miami detectives Mike Lowrey and Marcus Burnett must face off against a mother-and-son pair of drug lords who wreak vengeful havoc on their city.
+Actors: Will Smith, Martin Lawrence, Vanessa Hudgens
+------------------------------
+
+Year: 17 Jan 2020
+Rotten_Tomatoes: 75%
+Title: Bad Boys for Life

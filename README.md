@@ -8,30 +8,30 @@ LIRI, also known as _Language Interpretation and Recognition Interface_, is comm
 
 ### Commands to Use
 
-* __my-tweets__: returns 20 of the most recent tweets.  
+- **my-tweets**: returns 20 of the most recent tweets.  
    CLI Call: _node my-tweets_
 
-* __spotify-this-song__: returns the Artist, Album, Preview of the song specified. _Default Song: "The Sign"_  
+- **spotify-this-song**: returns the Artist, Album, Preview of the song specified. _Default Song: "The Sign"_  
    CLI Call: _node spotify-this-song songName_
 
-* __movie-this__: returns the movie details of the specified movie title. _Default Movie: "Mr. Nobody"_  
+- **movie-this**: returns the movie details of the specified movie title. _Default Movie: "Mr. Nobody"_  
    CLI Call: _node movie-this movieTitle_
 
-* __do-what-it-says__: reads a command from a file and executes the command specified. _Default Command: "movie-this 'Casino Royale'"_  
+- **do-what-it-says**: reads a command from a file and executes the command specified. _Default Command: "movie-this 'Casino Royale'"_
 
 ### Resources
 
-* APIs:  
+- APIs:  
    [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)  
    [OMDB](http://www.omdbapi.com/)  
-   [Twitter](https://www.npmjs.com/package/twitter)  
+   [Twitter](https://www.npmjs.com/package/twitter)
 
-* Node Packages:  
+- Node Packages:  
    [File System](https://nodejs.org/docs/latest-v7.x/api/fs.html)  
-   [Request](https:/www.npmjs.com/package/request)  
+   [Request](https:/www.npmjs.com/package/request)
 
 ---
 
 #### Copyright
 
-<p>Courtney Montgomery &copy 2018</p>
+Courtney Montgomery &copy; 2018
